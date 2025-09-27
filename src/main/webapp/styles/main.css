@@ -1,0 +1,58 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Heading */
+h2 {
+    color: #006699;
+    margin-bottom: 15px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Buttons */
+input[type="submit"], button {
+    background-color: #f2f2f2;
+    border: 1px solid #666;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Paragraphs */
+p {
+    margin-top: 10px;
+}
+
+/* Total amount highlight */
+p b {
+    font-size: 15px;
+}

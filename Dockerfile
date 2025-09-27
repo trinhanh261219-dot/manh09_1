@@ -1,5 +1,5 @@
 # Sử dụng Tomcat base image
-FROM tomcat:10.0-jdk21
+FROM tomcat:9.0-jdk17
 
 # Xóa các file demo trong webapps
 RUN rm -rf /usr/local/tomcat/webapps/*
